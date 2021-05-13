@@ -35,7 +35,7 @@ if (!empty($_POST)) {
                 $mail->SMTPSecure = 'tls';
                 $mail->SMTPAuth = true;
                 $mail->Username = "inzpnet@gmail.com";
-                $mail->Password = "uXsyTmT7heBc8sG";
+                $mail->Password = "***";
 
                 $mail->setFrom('inzpnet@gmail.com', 'InZpNet');
                 $mail->addAddress($_POST['email'], $_POST['name']);
