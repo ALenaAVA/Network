@@ -2,7 +2,7 @@
 return[
     'MAIL'=>[
         'user' =>'alenaava123@rambler.ru',
-        'pass'=> 'Qwerty123',
+        'pass'=> '***',
         'name'=> ''
     ],
     'DB'=>[
